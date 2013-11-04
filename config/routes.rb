@@ -1,9 +1,26 @@
 Fk::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
+  # See how all your routes lay out with 'rake routes'.
 
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'root#index'
+
+  get 'root/index'
+  get 'root/splash'
+  get 'root/home'
+
+	# new user
+  get 'user/new' => 'user#new'
+  post 'user/create' => 'user#create'
+
+	# user's own profile
+	get 'me' => 'user#show'
+	delete 'me' => 'user#delete'
+
+	get 'user/:id' => 'user#show'
+  get 'user/:id/delete' => 'user#delete'
+
+  post 'user/session'
+  delete 'user/session'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

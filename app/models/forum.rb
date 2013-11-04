@@ -1,6 +1,7 @@
 class Forum < ActiveRecord::Base
   belongs_to :owner, foreign_key: 'idOwner'
-  has_one :forumConfig
+  has_many :forumConfig
+  has_many :forumUrls
   has_many :boards
   has_many :topics
   has_many :users
