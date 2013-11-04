@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  idUser: 1
+  idBoard: 1
+  idForum: 1
+
+two:
+  idUser: 1
+  idBoard: 1
+  idForum: 1

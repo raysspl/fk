@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  idUser: 1
+  idTopic: 1
+  idForum: 1
+  idPostReplyTo: 1
+  title: MyString
+  text: MyText
+  dateCreated: 2013-11-03
+
+two:
+  idUser: 1
+  idTopic: 1
+  idForum: 1
+  idPostReplyTo: 1
+  title: MyString
+  text: MyText
+  dateCreated: 2013-11-03

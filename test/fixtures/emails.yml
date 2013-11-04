@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  idUser: 1
+  address: MyString
+  dateCreated: 2013-11-03
+  verified: false
+  idForum: 1
+
+two:
+  idUser: 1
+  address: MyString
+  dateCreated: 2013-11-03
+  verified: false
+  idForum: 1
